@@ -1,0 +1,61 @@
+body{
+    background-color:antiquewhite;
+}
+.container{
+    height:800px;
+    border:3px inset #89cff0;
+    border-radius:5px;
+    box-shadow:2px 4px 6px 2px #c5c6d0;
+    background-image:linear-gradient(45deg, cadetblue 40%,#87ceeb 45%);
+    margin:auto;
+}
+.container h2{
+    text-align:center;
+    margin-top:100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+}
+.container p{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    width:600px;
+    margin:auto;
+}
+.kanye{
+    width:150px;
+    height:150px;
+    margin:auto;
+}
+#kanyesFace{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.button-container{
+    margin:auto;
+    width:150px;
+    height:150px;
+    padding-top:100px;
+    border-radius:20px;
+}
+.reload{
+    border-radius:20px;
+    box-shadow:0px 2px 2px 6px rgba(229, 228, 226, 0.5);
+}
+#reloadButton{
+    width:100px;
+    height:80px;
+    border-radius:20px;
+}
+/*media queries*/
+@media screen and (max-width:600px) {
+    .container p,.container h2,#quote{
+        text-align:center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:18px;
+        width:300px;
+        margin:auto;
+           
+    }
+}
